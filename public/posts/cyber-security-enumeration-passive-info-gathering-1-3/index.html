@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>Cybersecurity Enumeration: Passive Information Gathering 1/3 &ndash; FirewallChronicles</title>
+<meta name="description" content="01/11/23 Welcome to my site. You can check out more details about me below by clicking the social media buttons.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />>
+
+
+<link rel="stylesheet" href="//localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="//localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="//localhost:1313/css/custom.css">
+
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="//localhost:1313/" class="page__logo-inner">FirewallChronicles</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="//localhost:1313/about/" title="">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="//localhost:1313/posts/" title="">Posts</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="//localhost:1313/who-am-i/" title="">Who Am I</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="//localhost:1313/archives/" title="">Archives</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="//localhost:1313/about/" title=""></a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Cybersecurity Enumeration: Passive Information Gathering 1/3</h1>
+    </header>
+    
+    <div class="content__body">
+        <p>In this article, we will delve into the world of cyber security and discuss various techniques and tools that can aid in capturing the flag in CTFs or enhancing one&rsquo;s overall knowledge in this field. It is important to note that the domain of cyber security is vast and constantly evolving, with new technologies and techniques emerging regularly. Therefore, staying up-to-date with the latest developments and trends is crucial for anyone interested in this field.</p>
+<p>Some of the key tools and techniques that one should familiarize themselves with include penetration testing, vulnerability scanning, and ethical hacking. In addition, a deep understanding of programming languages such as Python and C++, as well as the basics of networking and operating systems, can also greatly benefit those looking to enhance their cyber security knowledge.</p>
+<p>This article series will focus on the crucial aspect of passive information gathering in the field of cyber security. The information will be presented in a comprehensive manner, divided into three separate articles to cover various tools and techniques. Stay tuned for an in-depth exploration of the tools and methods used in passive information gathering, a crucial component of any cyber security strategy.</p>
+<h1 id="what-is-passive-information-gathering">What is Passive Information Gathering?</h1>
+<p>Passive information gathering is an essential component of any cyber security strategy, as it allows for the collection of information about a target without direct interaction. The process involves the use of various tools, such as shodan.io, that provide valuable insights into the target&rsquo;s assets, vulnerabilities, and potential weaknesses.</p>
+<p>This type of information gathering is particularly important for specific types of penetration testing, as it enables you to remain undetected by IDS&rsquo;s, firewalls, and logging systems. By reducing direct communication with the target and relying on third-party information, you maintain a high degree of confidentiality and secrecy.</p>
+<p>In this article, we will delve into the world of passive information gathering and introduce three essential tools - Whois, Google Hacking, and Netcraft.</p>
+<p>By utilizing these tools, cyber security professionals can gain a deeper understanding of the target&rsquo;s assets, network structure, and potential points of vulnerability, thus enabling them to design effective strategies to protect their clients&rsquo; sensitive information and assets.</p>
+<h1 id="tool-whois">Tool: Whois</h1>
+<p>Whois is a widely used TCP protocol for querying databases that store information related to domain records. Regulated by ICANN, Whois provides a wealth of information about domain name registration, ownership, and contact information.</p>
+<p>With Whois, it&rsquo;s possible to retrieve critical details about a domain, including its name server and the entity responsible for its registration. By utilizing this tool, cyber security professionals can gain valuable insights into a target&rsquo;s domain ownership, network infrastructure, and other relevant information.</p>
+<p>As a crucial tool in passive information gathering, Whois can be an integral part of any successful cyber security operation. Get ahead of the game and master the use of Whois in your information gathering efforts today.</p>
+<p>Here&rsquo;s an example of running Whois against the domain &rsquo;example.com':</p>
+<p><img src="/posts/enum-passive-1-3/image.png" alt="alt text"></p>
+<p>By conducting a Whois query on a target domain, one can gather information such as name servers, domain registration details, and potentially even personally identifiable information. This information can then be used as a starting point for further investigations and to develop more comprehensive cyber security strategies.</p>
+<p>It&rsquo;s important to note that not all information retrieved from a Whois query may be useful, as some information may be hidden by the DNS provider. However, even partial information can be beneficial and lead to further discovery. In the field of cyber security and blogging, utilizing Whois is a key aspect of passive information gathering and essential for developing effective and targeted security strategies.</p>
+<h1 id="google-hacking">Google Hacking</h1>
+<p>Google Hacking, also known as Google Dorking, is a valuable technique in the realm of cyber security. It involves leveraging search engines to uncover sensitive information about a target, including vulnerabilities, misconfigured websites, login credentials, and financial data.</p>
+<p>Google Hacking is achieved by utilizing various search operators offered by search engines such as Google. These operators can be used to conduct advanced searches, enabling the discovery of potentially sensitive information. The use of these operators is a critical aspect of Google Hacking and is a crucial tool for those looking to stay ahead in the ever-evolving world of cyber security.</p>
+<pre><code>* site: - limit search to a specific website, e.g. site:example.com
+
+* filetype: - search for specific file types, e.g. filetype:pdf
+
+* intitle: - search for keywords in page title, e.g. intitle:&quot;best restaurants&quot;
+
+* inurl: - search for keywords in URL, e.g. inurl:&quot;best hotels&quot;
+
+* link: - search for pages that link to a specific URL, e.g. link:example.com
+
+* related: - search for websites related to a specific URL, e.g. related:example.com
+
+* cache: - show Google's cached version of a page, e.g. cache:example.com
+
+* define: - search for definitions, e.g. define:happiness
+
+* info: - display information about a specific URL, e.g. info:example.com
+
+* allintitle: - search for pages with all search terms in the title, e.g. allintitle:best restaurants in town
+</code></pre>
+<p>By utilizing these advanced search operators, cyber security professionals and ethical hackers can effectively narrow down their search results and obtain targeted information about their target. For instance, the site operator can be utilized to search for a specific website, such as in the example of searching for &lsquo;site:example.com&rsquo;</p>
+<p><img src="/posts/enum-passive-1-3/image-1.png" alt="alt text"></p>
+<h1 id="tool-netcraft">Tool: Netcraft</h1>
+<p>Netcraft is a leading provider of web security and technology solutions, offering a range of internet services and tools. One of their most renowned offerings is the Netcraft Toolbar - a browser extension that provides insightful information about websites, including the technologies used, hosting location, and ownership details.</p>
+<p>With their free web portal, users can access a variety of information-gathering functions using a passive technique, without ever directly interacting with their target. Searchdns.netcraft.com is a valuable resource for searching DNS results of any website you wish to know more about. For instance, searching &ldquo;example.com&rdquo; will provide you with relevant results.</p>
+<p><img src="/posts/enum-passive-1-3/image-2.png" alt="alt text"></p>
+<p>By clicking on the &ldquo;Site Report&rdquo; option, you can access more information about the website. This information includes a wide range of details, such as background information, network details, IP delegation, SSL/TLS information, hosting history, and more.</p>
+<p><img src="/posts/enum-passive-1-3/image-4.png" alt="alt text"></p>
+<p><img src="/posts/enum-passive-1-3/image-5.png" alt="alt text"></p>
+<p><img src="/posts/enum-passive-1-3/image-6.png" alt="alt text"></p>
+<p>I hope these tools and sites assist you in expanding your knowledge of Passive Information Gathering. Stay tuned, as I will be posting further updates on this subject in the near future, including additional tools and techniques to utilize.</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <img class="about__logo" src="//localhost:1313/images/logo-2.png" alt="Logo">
+<h1 class="about__title">Welcome</h1>
+<p class="about__description">01/11/23 Welcome to my site. You can check out more details about me below by clicking the social media buttons.</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/capactiyvirus" rel="me" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:example@example.com" rel="me" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    
+    
+        <p>
+            By Dennis Sarovski, 
+            2023-02-06
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b></b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© <a href="https://firewallchronicles.com">Dennis Sarovski</a> &amp; <a href="https://github.com/joeroe/risotto/graphs/contributors">risotto contributors</a>.</p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

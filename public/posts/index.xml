@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on FirewallChronicles</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on FirewallChronicles</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© [Dennis Sarovski](https://firewallchronicles.com) &amp; [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors).</copyright>
+    <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privilage Escalation</title>
+      <link>//localhost:1313/posts/privilage-escalation/</link>
+      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/privilage-escalation/</guid>
+      <description>Information Gathering What&amp;rsquo;s the OS? What version? What Architecture?&#xA;* cat /etc/*-release * uname -i, uname -a * lsb_release -a (Debian based OS&#39;s) Who are we? Where are we?&#xA;* id * pwd Who uses the box? What users? (And which ones have a valid shell)&#xA;* cat /etc/passwd * grep -vE &amp;quot;nologin|false&amp;quot; /etc/passwd What&amp;rsquo;s currently running on the box? What active network services are there?&#xA;* ps aux * netstat -antup What&amp;rsquo;s installed?</description>
+    </item>
+    <item>
+      <title>Tool Time: enum4linux-ng</title>
+      <link>//localhost:1313/posts/tool-time-enum4linux-ng/</link>
+      <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/tool-time-enum4linux-ng/</guid>
+      <description>I&amp;rsquo;ve learned about many different tools that can be useful for CTF (Capture the Flag) competitions and other security-related activities. In this article, I&amp;rsquo;ll be focusing on one of these tools: enum4linux and its successor, enum4linux-ng.&#xA;Both of these tools are designed to help with the enumeration of Windows and Samba systems, allowing security professionals and penetration testers to extract valuable information from SMB shares. Enum4linux has been a popular tool for many years, but the newer enum4linux-ng offers some improvements and additional features that make it a great option for those looking to perform more advanced enumeration.</description>
+    </item>
+    <item>
+      <title>Cybersecurity Enumeration: Passive Information Gathering 1/3</title>
+      <link>//localhost:1313/posts/cyber-security-enumeration-passive-info-gathering-1-3/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cyber-security-enumeration-passive-info-gathering-1-3/</guid>
+      <description>In this article, we will delve into the world of cyber security and discuss various techniques and tools that can aid in capturing the flag in CTFs or enhancing one&amp;rsquo;s overall knowledge in this field. It is important to note that the domain of cyber security is vast and constantly evolving, with new technologies and techniques emerging regularly. Therefore, staying up-to-date with the latest developments and trends is crucial for anyone interested in this field.</description>
+    </item>
+    <item>
+      <title>Cyber Security Multi-Tool: Flipper Zero</title>
+      <link>//localhost:1313/posts/cyber-security-multi-tool-flipper-zero/</link>
+      <pubDate>Sun, 29 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/cyber-security-multi-tool-flipper-zero/</guid>
+      <description>Today, I&amp;rsquo;d like to share my thoughts on a cutting-edge tool that has recently gained immense popularity in the market and has been making waves on TikTok. Despite being a bit late to the party, I still think this tool is worth mentioning due to its cool features and ability to educate those interested in cybersecurity and the various physical tools available.&#xA;The tool I am referring to is a compact, multi-functional device that provides a plethora of features and capabilities to aid in penetration testing and security auditing.</description>
+    </item>
+    <item>
+      <title>Get Your Dream Cybersecurity Job by Creating a Resume-Website</title>
+      <link>//localhost:1313/posts/get-your-dream-cyber-job-resume-web/</link>
+      <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/get-your-dream-cyber-job-resume-web/</guid>
+      <description>Building Credibility Continuing on the topic of how to improve yourself and land that dream job, it&amp;rsquo;s important to note that one of the key factors in standing out from other job applicants is effectively advertising yourself. A great way to do this is by creating a personal website where you can showcase your skills, experiences, and achievements in a unique and engaging way.&#xA;In the tech field, and specifically in cyber security, having a personal website can be especially beneficial.</description>
+    </item>
+    <item>
+      <title>Mastering Cybersecurity: How to Improve Your Skills and Land Your Dream Job</title>
+      <link>//localhost:1313/posts/how-to-improve-your-skills/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/how-to-improve-your-skills/</guid>
+      <description>Ok, I graduated. Now what? In my previous blog post, I mentioned that after graduating from university, I felt like my education was not comprehensive enough. I found that companies were looking for more than just a degree and I realized that the days of a degree being enough were over, unless you got lucky. In light of this, I took the opportunity to create a plan for myself to further my education and improve my skills.</description>
+    </item>
+    <item>
+      <title>Chat-GPT3 in Cyber Security</title>
+      <link>//localhost:1313/posts/chat-gpt3-cyber-security/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/chat-gpt3-cyber-security/</guid>
+      <description>In this blog post, I will be discussing the impact of ChatGPT-3 on the field of cyber security and its potential uses for learning. Additionally, I will address the risks of adversaries using it for attacks and share my personal opinion on the tool. Cyber security is a constantly evolving field and new technologies like ChatGPT-3 can have a significant impact on the industry. It is important to understand both the potential benefits and risks of this technology in order to make informed decisions.</description>
+    </item>
+    <item>
+      <title>Is Formal Education Necessary for a Career in Cybersecurity?</title>
+      <link>//localhost:1313/posts/is-formal-ed-needed/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/is-formal-ed-needed/</guid>
+      <description>Disclaimer This is a complex question. I will do my best to provide an answer, but keep in mind that this is my personal opinion and that the landscape is constantly changing. I hope that readers will be able to gain valuable information from my response and that I can guide you in the right direction.&#xA;Dont be lazy :) Based on my previous articles, I may be biased as I have a formal education in cyber security from university.</description>
+    </item>
+    <item>
+      <title>How I got into Cyber Security</title>
+      <link>//localhost:1313/posts/how-i-got-into-cyber-sec/</link>
+      <pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/how-i-got-into-cyber-sec/</guid>
+      <description>Everyone&amp;rsquo;s path into cyber security is unique, with its own twists and turns. There is no one-size-fits-all approach to achieving success in the field, especially when it comes to personal goals. In this post, I&amp;rsquo;ll be sharing my personal journey on how I got started in cyber security.&#xA;Ever since I was a kid As a child, I never really considered a career in cyber security. That&amp;rsquo;s not to say that the idea of being a hacker or spy from games like Deus Ex or movies like Spy Kids didn&amp;rsquo;t appeal to me, but it wasn&amp;rsquo;t something I actively thought about as a career option.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>//localhost:1313/posts/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rich Content</title>
+      <link>//localhost:1313/posts/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Placeholder Text</title>
+      <link>//localhost:1313/posts/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>//localhost:1313/posts/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>//localhost:1313/posts/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
